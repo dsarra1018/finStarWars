@@ -6,10 +6,6 @@ var path = require("path");
 // Sets up the Express App
 // =============================================================
 var app = express();
-<<<<<<< HEAD
-=======
-// var PORT = this_is_for_heroku || this_is_for_localhost
->>>>>>> 410efb01e97beda7f3b18fefbd945bf3777debf6
 var PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
